@@ -11,79 +11,63 @@ public class Variables {
 //    b Значение переменной должно быть таким-же логичным как и название
 //    c Все переменные должны быть выведены на экран
 
-//    sea level (Example of variable related to climate change)
+//    Floating point
 
-      String climate1 = "Sea level";
-      String climate2 = "related to climate change";
-      System.out.println("Sea level related to climate change");
+        float a, b, c;
 
+        a = 3.123456789F;
+        b = 350.0F;
+        c = a + b;
 
-//    dissolved oxygen related to fish kill
+        System.out.println("a = " + a);
 
-        String oxygen1 = "dissolved oxygen";
-        String oxygen2 = "related to fish kill";
+        float d = 10.8632667283322234f;
+        double y = 10.8632667283322234f;
 
-        System.out.println("Dissolved oxygen related to fish kill");
+        System.out.println("float value = " + d);
+        System.out.println("float value = " + y);
 
+        float num1 = 10.5f;
+        float num2 = 20.5f;
+        float sum = num1 + num2;
+        double number = sum;
+        System.out.println(number);
 
-//    water salinity related to fish kill
+        double x = 10.5;
+        double e = 20.5;
+        double z = x + e;
+        float result = (float) z;
+        System.out.println(result);
 
-      String water1 = "water salinity";
-      String water2 = "related to fish kill";
+        byte num3 = 127;
+        byte num4 = -128;
+        System.out.println("num3 : " + num1);
+        System.out.println("num4 : " + num2);
 
-      System.out.println("Water salinity related to fish kill");
+        byte myNum = 100;
+        System.out.println(myNum);
 
-       // red fox
+        int myNum1 = 100000;
+        System.out.println(myNum1);
 
-      String animal1 = "red";
-      String animal2 = "fox";
+        long myNum2 = 15000000000L;
+        System.out.println(myNum2);
 
-      System.out.println("Red fox");
+        float myNum3 = 5.75f;
+        System.out.println(myNum3);
 
+        double myNum4 = 19.99d;
+        System.out.println(myNum4);
 
-       // curly sheep
+        float f1 = 35e3f;
+        double d1 = 12E4d;
+        System.out.println(f1);
+        System.out.println(d1);
 
-      String animalSheep1 = "curly";
-      String animalSheep2 = "sheep";
-
-      System.out.println("Curly sheep");
-
-      // faithful dog man's friend
-
-      String animalDog1 = "faithful dog";
-      String animalDog2 = "men's friend";
-
-      System.out.println("Faithful dog men's friend");
-
-     // funny clown in the circus
-
-      String actorClown = "Funny clown";
-      String actorClown2 = "in the circus";
-
-      System.out.println("Funny clown in the circus");
-
-      // today is the sunny day
-
-      String sunnyDay1 = "Today is";
-      String sunnyDay2 = "the sunny day";
-
-      System.out.println("Today is the sunny day");
-
-      // blue color
-
-       String color1 = "Blue";
-       String color2 = "color";
-
-      System.out.println("Blue color");
-
-       // bad joke
-
-       String joke1 = "Bad";
-       String joke2 = "joke";
-
-      System.out.println("Bad joke");
-
-
+        boolean isJavaFun = true;
+        boolean isFishTasty = false;
+        System.out.println(isJavaFun);
+        System.out.println(isFishTasty);
 
 
 // 2 Вывести на экран минимальное и максимальное значение каждого типа данных.
@@ -108,22 +92,22 @@ public class Variables {
 
         // Addition
 
-        int a = 11;
-        int b = 8;
-        int c = a + b;  // 19
-        int d = 5 + b;  // 13
+        int a1 = 11;
+        int b1 = 8;
+        int c1 = a1 + b1;  // 19
+        int d2 = 5 + b1;  // 13
 
         int q = 34;
         int w = 11;
-        int e = q + w; // 45
+        int e1 = q + w; // 45
         int t = 7 + 11; // 18
 
         // Subtraction
 
-        int x = 12;
-        int y = 6;
-        int z = x - y;  // 6
-        int v = 7 - y; // 1
+        int x1 = 12;
+        int y1 = 6;
+        int z1 = x1 - y1;  // 6
+        int v = 7 - y1; // 1
 
 
         int r = 9;
@@ -157,7 +141,6 @@ public class Variables {
         int mm = 50 / 2; // 25
 
 
-
 // 4 Создать 5 переменных String и распечатать их значение на экран
 
         String[] animals = {"cat", "tiger", "dog", "snake", "cow", "tiger", "hamster", "lion", "camel", "sheep"};
@@ -165,7 +148,6 @@ public class Variables {
         System.out.println(animals);
         System.out.println(Arrays.toString(animals));
         System.out.println(animals[5]);
-
 
 
 // 5 Напишите одно предложение (по возможности длинное) о себе в виде комментария. Далее каждое слово присвойте к новой переменной и распечатайте предложение в одной строке.
