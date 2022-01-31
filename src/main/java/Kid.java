@@ -7,4 +7,4 @@ public class Kid extends Human {
         System.out.println("CRY");
     }
 }
-}
+
