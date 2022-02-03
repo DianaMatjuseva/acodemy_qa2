@@ -3,7 +3,6 @@ package homework;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-
 public class Animal {
 
     private String animalName;
@@ -60,5 +59,15 @@ public class Animal {
             System.out.println("Trainings are good effect on me!");
         }
     }
+
+    public void feed() {
+        if (animalEnergy == 6) {
+            System.out.println("Animal full of energy.");
+        } else {
+            animalEnergy = 6;
+            System.out.println("Yammy, yammy! Thanks for feeding me!");
+        }
+    }
+
 }
 
